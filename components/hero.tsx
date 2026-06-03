@@ -70,7 +70,7 @@ export function Hero() {
                   <div className="w-full h-full rounded-full bg-background flex items-center justify-center overflow-hidden">
                     {/* Profile placeholder with gradient */}
                     <div className="w-full h-full bg-gradient-to-br from-primary/20 via-secondary/10 to-accent/20 flex items-center justify-center">
-                      <User className="w-20 h-20 sm:w-24 sm:h-24 lg:w-32 lg:h-32 text-muted-foreground/50" />
+                      <img src="/profile.jpg" alt="Ayushi Thakur" className="w-full h-full object-cover rounded-full"/>
                     </div>
                   </div>
                 </div>
